@@ -11,6 +11,15 @@
 		57D66E3C2C7F342900C321CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E3B2C7F342900C321CD /* ContentView.swift */; };
 		57D66E3E2C7F342A00C321CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D66E3D2C7F342A00C321CD /* Assets.xcassets */; };
 		57D66E412C7F342A00C321CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D66E402C7F342A00C321CD /* Preview Assets.xcassets */; };
+		57D66E492C7F345900C321CD /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E482C7F345900C321CD /* CarouselModel.swift */; };
+		57D66E4B2C7F348200C321CD /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E4A2C7F348200C321CD /* CarouselViewModel.swift */; };
+		57D66E4D2C7F34A500C321CD /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E4C2C7F34A500C321CD /* CarouselView.swift */; };
+		57D66E512C7F354000C321CD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E502C7F354000C321CD /* SearchBar.swift */; };
+		57D66E532C7F356000C321CD /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E522C7F356000C321CD /* ListModel.swift */; };
+		57D66E552C7F357D00C321CD /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E542C7F357D00C321CD /* ListViewModel.swift */; };
+		57D66E572C7F35A700C321CD /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E562C7F35A700C321CD /* ListViewCell.swift */; };
+		57D66E5A2C7F35FC00C321CD /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E592C7F35FC00C321CD /* StatisticsViewModel.swift */; };
+		57D66E5C2C7F361700C321CD /* FloatingActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D66E5B2C7F361700C321CD /* FloatingActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		57D66E3B2C7F342900C321CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57D66E3D2C7F342A00C321CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57D66E402C7F342A00C321CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57D66E482C7F345900C321CD /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		57D66E4A2C7F348200C321CD /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		57D66E4C2C7F34A500C321CD /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		57D66E502C7F354000C321CD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		57D66E522C7F356000C321CD /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		57D66E542C7F357D00C321CD /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		57D66E562C7F35A700C321CD /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		57D66E592C7F35FC00C321CD /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		57D66E5B2C7F361700C321CD /* FloatingActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				57D66E392C7F342900C321CD /* MachineTestMvvmAppApp.swift */,
+				57D66E472C7F344200C321CD /* CarouselView */,
+				57D66E4E2C7F34FE00C321CD /* ListView */,
+				57D66E582C7F35E000C321CD /* BottomButtonView */,
 				57D66E3B2C7F342900C321CD /* ContentView.swift */,
 				57D66E3D2C7F342A00C321CD /* Assets.xcassets */,
 				57D66E3F2C7F342A00C321CD /* Preview Content */,
@@ -65,6 +86,44 @@
 				57D66E402C7F342A00C321CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57D66E472C7F344200C321CD /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				57D66E482C7F345900C321CD /* CarouselModel.swift */,
+				57D66E4A2C7F348200C321CD /* CarouselViewModel.swift */,
+				57D66E4C2C7F34A500C321CD /* CarouselView.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		57D66E4E2C7F34FE00C321CD /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				57D66E4F2C7F352B00C321CD /* SearchBarView */,
+				57D66E522C7F356000C321CD /* ListModel.swift */,
+				57D66E542C7F357D00C321CD /* ListViewModel.swift */,
+				57D66E562C7F35A700C321CD /* ListViewCell.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		57D66E4F2C7F352B00C321CD /* SearchBarView */ = {
+			isa = PBXGroup;
+			children = (
+				57D66E502C7F354000C321CD /* SearchBar.swift */,
+			);
+			path = SearchBarView;
+			sourceTree = "<group>";
+		};
+		57D66E582C7F35E000C321CD /* BottomButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				57D66E592C7F35FC00C321CD /* StatisticsViewModel.swift */,
+				57D66E5B2C7F361700C321CD /* FloatingActionButtonView.swift */,
+			);
+			path = BottomButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D66E4D2C7F34A500C321CD /* CarouselView.swift in Sources */,
+				57D66E5C2C7F361700C321CD /* FloatingActionButtonView.swift in Sources */,
+				57D66E4B2C7F348200C321CD /* CarouselViewModel.swift in Sources */,
 				57D66E3C2C7F342900C321CD /* ContentView.swift in Sources */,
+				57D66E5A2C7F35FC00C321CD /* StatisticsViewModel.swift in Sources */,
 				57D66E3A2C7F342900C321CD /* MachineTestMvvmAppApp.swift in Sources */,
+				57D66E532C7F356000C321CD /* ListModel.swift in Sources */,
+				57D66E492C7F345900C321CD /* CarouselModel.swift in Sources */,
+				57D66E552C7F357D00C321CD /* ListViewModel.swift in Sources */,
+				57D66E572C7F35A700C321CD /* ListViewCell.swift in Sources */,
+				57D66E512C7F354000C321CD /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
